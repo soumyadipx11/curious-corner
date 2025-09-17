@@ -80,9 +80,10 @@ button {
     font-size: 18px;
     font-weight: 700;
     color: #E5E7EB;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     border-style: none;
+    margin: 10px 0;
 }
 
 .header-container {
@@ -133,4 +134,25 @@ button {
     width: 300px;
     flex: 0;
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;font-weight: 300;
+    text-align: justify;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
 }
