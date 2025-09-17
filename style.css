@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .header-logo {
@@ -36,7 +37,8 @@ a {
 .links {
     display: flex;
     list-style: none;
-    gap: 24px;
+    list-style-position: inside;
+    gap: 60px;
 }
 
 .hero-main-text {
@@ -79,7 +81,7 @@ button {
     background-color: #3882F6;
     font-size: 18px;
     font-weight: 700;
-    color: #E5E7EB;
+    color: #F9FAF8;
     padding: 10px 20px;
     border-radius: 10px;
     border-style: none;
@@ -98,7 +100,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 16px;
+    padding: 100px 16px;
 }
 
 .info-header {
@@ -155,4 +157,29 @@ button {
     text-align: end;
     font-size: 20px;
     font-weight: 700;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.cta-header {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cta-info {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta-button {
+    border: 3px solid #F9FAF8;
+    color: #F9FAF8;
 }
