@@ -1,1 +1,1 @@
-# landing-page
+# curious-corner
