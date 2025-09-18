@@ -14,13 +14,25 @@ body {
     background-color: #1F2937;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0;
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 16px 100px;
     margin: 0;
     gap: 50px;
+    position: fixed;
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .header-logo {
@@ -74,8 +86,9 @@ a {
     justify-content: space-around;
     align-items: center;
     gap: 50px;
-    padding: 16px 0 50px 0;
+    padding: 16px 100px 50px 100px;
     flex-wrap: wrap;
+    margin-top: 134.4px;
 }
 
 .hero-left {
@@ -105,12 +118,7 @@ button {
     letter-spacing: 4px;
 }
 
-.header-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    padding: 0 100px;
-}
+
 
 .info-container {
     display: flex;
