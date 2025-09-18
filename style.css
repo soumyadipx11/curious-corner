@@ -64,7 +64,7 @@ a {
     height: auto;
     min-width: 284.8px;
     border-radius: 16px;
-    border-radius: 190px;
+    border-radius: 50%;
     border: 10px solid #3882F6;
 }
 
@@ -135,7 +135,7 @@ button {
     height: 200px;
     width: 200px;
     border: 5px solid #3882F6;
-    border-radius: 50%;
+    border-radius: 16px;
     padding: 32px;
 }
 .info-content {
