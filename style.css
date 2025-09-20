@@ -141,8 +141,8 @@ button {
 .item-img{
     height: 200px;
     width: 200px;
-    border: 5px solid #3882F6;
-    border-radius: 16px;
+    border: 7px solid #1F2937;
+    border-radius: 32px;
     padding: 32px;
 }
 .info-content {
